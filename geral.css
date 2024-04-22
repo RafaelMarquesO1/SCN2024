@@ -1,0 +1,55 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que a navbar fique sobreposta a outros elementos */
+}
+
+/* Estilos personalizados para o carrossel */
+.carousel-item {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 58, 64, 0.7); /* Cor de sobreposição semitransparente */
+}
+
+.carousel-item img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* Estilos para o conteúdo centralizado */
+.welcome-container {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Cor do texto */
+    z-index: 999; /* Garante que o conteúdo fique sobreposto ao carrossel */
+
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.conteudo {
+    margin-top: 60px;
+    padding: 30px;
+}
+
+#txt-laranja {
+    color: #e64323;
+}

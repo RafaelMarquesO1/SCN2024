@@ -6,14 +6,11 @@
     <title>Comunidade Nuclea - Início</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="geral.css">
-
     <link rel="shortcut icon" href="LogoNucleaNavbar.ico" type="image/x-icon">
-
-    
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- Fixa a navbar no topo -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="./imagens/LogoNucleaNavbar.png" alt="Comunidade Nuclea" width="40" height="38" class="d-inline-block align-text-top">
@@ -37,7 +34,7 @@
                     <a class="nav-link" href="#">Transmissões</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Dizimos e Ofertas</a>
+                    <a class="nav-link" href="#">Dízimos e Ofertas</a>
                 </li>
             </ul>
         </div>
@@ -68,32 +65,67 @@
     </div>
 </div>
 
-<!-- Conteúdo centralizado abaixo da navbar -->
-    <div class="welcome-container">
-        <h1 class="mb-4"><strong>GRAÇA, AMOR E PAZ!</strong></h1>
-            <h4>E disse-lhes: "Vão pelo mundo todo e preguem o evangelho a todas as pessoas.</h4>
-            <p>Marcos 16:15</p>
-    </div>
+<div class="welcome-container">
+    <h1 class="mb-4"><strong>GRAÇA, AMOR E PAZ!</strong></h1>
+    <h4>E disse-lhes: "Vão pelo mundo todo e preguem o evangelho a todas as pessoas."</h4>
+    <p>Marcos 16:15</p>
+</div>
 
-    <div class="conteudo">
-        <h2>O que é a <strong id="txt-laranja">Comunidade Nuclea</strong>?</h2>
-        <p>Na Comunidade Nuclea, somos uma família unida pela busca da verdade e pelo amor à Palavra de Deus. Aqui, encontramos inspiração e orientação para nossas vidas, fortalecendo nossa fé e compartilhando a mensagem de esperança e arrependimento. Nossa igreja é um espaço de comunhão e crescimento espiritual, onde todos são bem-vindos para aprender, crescer e servir juntos, seguindo os princípios e valores do Evangelho.</p>
+<div class="conteudo">
+    <h2>O que é a <strong id="txt-laranja">Comunidade Nuclea</strong>?</h2>
+    <p>Na Comunidade Nuclea, somos uma família unida pela busca da verdade e pelo amor à Palavra de Deus. Aqui, encontramos inspiração e orientação para nossas vidas, fortalecendo nossa fé e compartilhando a mensagem de esperança e arrependimento. Nossa igreja é um espaço de comunhão e crescimento espiritual, onde todos são bem-vindos para aprender, crescer e servir juntos, seguindo os princípios e valores do Evangelho.</p>
+</div>
+
+<div class="conteudo">
+    <h1>Nossos Cultos:</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/imagemteste01.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Culto da Família</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur nemo minima mollitia totam excepturi in cumque dicta molestiae repudiandae quis, maiores assumenda facere quasi odio? Nihil ipsum dicta error.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/imagemteste01.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Culto de Louvor e Oração</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quibusdam aperiam eaque nemo neque. Vitae quas fugiat in, unde ea necessitatibus! A, perferendis. Numquam impedit soluta maiores labore tempora cum!</p>
+              <a href="#" class="btn btn-primary">Saiba Mais...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/imagemteste01.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tarde Com Cristo</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem exercitationem ipsum nulla, omnis tempora reiciendis natus eum, eveniet sapiente ut corrupti. Nobis odio sed vel corrupti laudantium quam eveniet sequi.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagens/imagemteste01.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Culto de Louvor e Oração</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam molestias repudiandae ullam! Eveniet ea aspernatur rerum, error quas mollitia qui architecto cupiditate molestiae fugiat impedit consectetur molestias placeat et repellendus quo omnis quis velit voluptate dolorum repudiandae eum reprehenderit eaque.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var myCarousel = document.querySelector('#carouselExample');
-        var carousel = new bootstrap.Carousel(myCarousel, {
-            interval: 5000,
-            wrap: true,
-            pause: 'hover'
-        });
-
-        myCarousel.querySelector('.carousel-item').classList.add('active');
-    });
-    AOS.init();
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>

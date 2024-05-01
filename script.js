@@ -13,3 +13,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
     myCarousel.querySelector('.carousel-item').classList.add('active');
 });
+
+// Fazer a função de enviar o usuário ao GMAIL para poder ter a função 'Oração'.

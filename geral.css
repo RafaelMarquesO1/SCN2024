@@ -560,6 +560,14 @@
     }
 }
 
+@media (min-width: 414px) {
+    .kard {
+        margin: 55px;
+        width: 310px;
+        height: 500px;
+    }
+}
+
 #footer_subscribe h3 {
     font-family: 'Monument2';
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 .navbar {
     position: fixed;
     top: 0;
@@ -45,9 +47,230 @@
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
+@font-face {
+    font-family: 'Monument';
+    src: url('Monument\ Extended.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Monument2';
+    src: url('Monument\ Extended2.otf') format('opentype');
+}
+
+#inicio {
+    font-family: 'Monument';
+}
+
+#boas-vindas {
+    font-family: 'Monument';
+    letter-spacing: 1px;
+}
+
+.conteudo1 .texto-black p {
+    font-family: "Inter", sans-serif;
+}
+
+#ImagemInicial {
+    width: 100%;
+    background-size: cover
+}
+
+
 .conteudo {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.texto-black {
     margin-top: 60px;
-    padding: 30px;
+    padding: 20px;
+    color: white;
+}
+
+#quem-somos {
+    font-family: 'Monument';
+}
+
+#quem-somos {
+    font-family: 'Monument';
+}
+
+#nossos-valores {
+    font-family: 'Monument';
+    color: #000000;
+}
+
+
+/* PARTE DOS VALORES! */
+
+.conteudo #nossos-valores h3 {
+    font-family: 'Monument';
+}
+
+/* GRAÇA */
+.graca-prt {
+    padding-top: 50px;
+}
+
+.graca-prt h3 {
+    font-family: 'Monument2';
+    color: #1c4396;
+}
+
+.graca-prt p {
+    font-family: "Inter", sans-serif;
+}
+
+/* AMOR */
+.amor-prt {
+    padding-top: 50px;
+}
+
+.amor-prt h3 {
+    font-family: 'Monument2';
+    color: #ef4f22;
+}
+
+.amor-prt p {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* PAZ */
+.paz-prt {
+    padding-top: 50px;
+    padding-bottom:60px;
+}
+
+.paz-prt h3 {
+    font-family: 'Monument2';
+    color: #cf1f26;
+}
+
+.paz-prt p {
+    font-family: "Inter", sans-serif;
+}
+
+/* SIGNIFICADO DA ÁGUIA */
+.aguia-significado h2 {
+    font-family: 'Monument';
+    padding-bottom: 10px;
+}
+
+.aguia-significado p {
+    font-family: "Inter", sans-serif;
+}
+
+.txt-lista {
+    list-style-type: decimal;
+    font-family: "Inter", sans-serif;
+}
+
+.txt-lista li{
+    padding-bottom: 7px;
+}
+
+.conteudo1 {
+    margin-top: 0px;
+    padding: 0px;
+    padding-bottom: 60px;
+    background-color: #0f0f0f;
+    display: flex;
+}
+
+.conteudo1-1 {
+    margin-top: 0px;
+    padding: 0px;
+    padding-bottom: 60px;
+    background-color: #0f0f0f;
+    display: flex;
+}
+
+/* CARDS */
+#cultos {
+    font-family: 'Monument';
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.kard {
+    margin: 50px;
+    background-color: #e0e0e0;
+    color: #202020;
+    width: 400px;
+    height: 570px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.bto a {
+    text-decoration: none;
+    color: white;
+}
+
+.kard>h1 {
+    font-family: 'Monument2';
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.kard>h2 {
+    font-family: 'Monument2';
+    font-size: 15px;
+    padding-top: 1px;
+    color: #1c4396;
+}
+
+.kard>p {
+    font-size: 17px;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.bto{
+   font-family: 'Monument2'; 
+   padding: 10px 50px;
+   border: none;
+   background-color: #202020;
+   color: #ffffff;
+   letter-spacing: 1px;
+   transition: 0.5s background;
+   cursor: pointer;
+}
+
+.bto:hover {
+    transition: 0.5s background;
+    background-color: #464646;
+}
+
+.kard>img {
+    width: 100%;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
+
+
+
+#imagemLogo {
+    margin-right: 20px;
+    margin-left: 12px;
+    max-width:800px;
+    max-height:460px;
+    width: auto;
+    height: auto;
+}
+
+.imagemperfil01 {
+    margin-right: 20px;
+    margin-left: 0px;
+    max-width:800px;
+    max-height:600px;
+    width: auto;
+    height: auto;
 }
 
 #txt-laranja {
@@ -226,6 +449,55 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+
+    .conteudo1 {
+        margin-top: 0px;
+        padding: 0px;
+        display: block;
+    }
+
+    #ImagemInicial {
+        margin-right: 0px;
+        margin-left: 0px;
+        max-width:800px;
+        max-height:460px;
+        width: auto;
+        height: auto;
+    }
+
+    .conteudo1-1 {
+        display: block;
+        padding-top: 0px;
+    }
+
+    .conteudo1-2 {
+        margin-top: 0px;
+        padding: 0px;
+        background-color: #0f0f0f;
+        display: flex;
+    }
+
+    .welcome-container {
+        position: absolute;
+        top: 40%; /* Centraliza verticalmente */
+        left: 50%;
+    }
+
+    .imagemperfil01 {
+        align-items: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        max-width:600px;
+        max-height:450px;
+        width: auto;
+        height: auto;
+    }
+
+    .main {
+        width: 50%;
+        display: block;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -247,6 +519,30 @@
     font-variation-settings: "slnt" 0;
 }
 
-.txt-lista {
-    list-style-type: decimal;
+@media (min-width: 992px) {
+    .full-width-card {
+        width: 100%;
+    }
+}
+
+#lista-valores li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#lista-valores li strong {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#txt-graca {
+    color: #1c4396;
+}
+
+#txt-amor {
+    color: #ef4f22;
+}
+
+#txt-paz {
+    color: #cf1f26;
 }

@@ -15,3 +15,13 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Fazer a função de enviar o usuário ao GMAIL para poder ter a função 'Oração'.
+
+function enviarEmail() {
+    var email = document.getElementById('email').value;
+    var destinatario = "emailcomunidade@uorak.com"; // Substitua pelo e-mail da igreja
+    var assunto = "Pedido de Oração";
+    var corpo = "Escreva sua oração aqui! ";
+    
+    var link = "https://mail.google.com/mail/?view=cm&fs=1&to=" + destinatario + "&su=" + assunto + "&body=" + corpo;
+    window.open(link, "_blank");
+}

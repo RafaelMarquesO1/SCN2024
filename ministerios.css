@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+    /* PASTORAL */
+    .Min-Pastoral {
+        display: block;
+    }
+
+    .Min-Pastoral img {
+        width: 90%;
+    }
+
+    /* LOUVOR */
+    .Min-Louvor {
+        display: block;
+    }
+
+    .Min-Louvor img {
+        width: 90%;
+    }
+
+    /* INFANTIL */
+    .Min-Infantil {
+        display: block;
+    }
+
+    .Min-Infantil img {
+        width: 90%;
+    }
+
+    /* DIACONATO */
+    .Min-Diaconato {
+        display: block;
+    }
+
+    .Min-Diaconato img {
+        width: 90%;
+    }
+
+    /* PASTORAL */
+    #tt-min01 {
+        font-size: 21px;
+    }
+
+    /* LOUVOR */
+    #tt-min02 {
+        font-size: 21px;
+    }
+
+    /* INFANTIL */
+    #tt-min03 {
+        font-size: 21px;
+    }
+
+    /* DIACONATO */
+    #tt-min04 {
+        font-size: 21px;
+    }
+}
+

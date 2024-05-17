@@ -13,6 +13,10 @@
         display: block;
     }
 
+    .txt-palavra {
+        font-size: 14px;
+    }
+
     .Min-Louvor img {
         width: 90%;
     }

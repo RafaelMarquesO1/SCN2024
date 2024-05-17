@@ -1,0 +1,111 @@
+.cultos-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+}
+
+.conteudo-cultos {
+    margin-top: 65px;
+}
+
+.titulo-bannercultos {
+    margin: 30px;
+    font-family: 'Monument';
+    color: white;
+}
+
+.imagem-cultos {
+    background-image: url('imagens/imagemcultos.png');
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.imagem-cultos h2 {
+    margin-top: 60px;
+}
+
+.imagem-cultos p {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.titulo-cultos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#titulo-bannercultos01 {
+    font-family: "Monument2";
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+.palavras-destaque {
+    display: block;
+    padding-top: 60px;
+}
+
+.horarios001 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ef4f22;
+    font-family: "Azeret Mono", monospace;
+}
+
+.dias-cultos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ef4f22;
+    margin-bottom: 0px;
+}
+
+.dias-culto {
+    font-family: "Azeret Mono", monospace;
+    font-weight: 700;
+}
+
+.cultos-part {
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.bto-foto {
+    font-family: 'Monument';
+    padding: 10px 50px;
+    border: none;
+    background-color: #ef4f22;
+    color: #ffffff;
+    letter-spacing: 1px;
+    transition: 0.5s background;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bto-foto a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ .bto-foto:hover {
+    transition: 0.5s background;
+    background-color: #171c61;
+    text-decoration: none;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}

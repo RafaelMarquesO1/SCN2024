@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function enviarEmail() {
     var email = document.getElementById('email').value;
-    var destinatario = "emailcomunidade@uorak.com"; // Substitua pelo e-mail da igreja
+    var destinatario = "emailcomunidade@uorak.com"; // Substituir pelo e-mail da igreja
     var assunto = "Pedido de Oração";
     var corpo = "Escreva sua oração aqui! ";
     

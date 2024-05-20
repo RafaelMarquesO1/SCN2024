@@ -718,11 +718,6 @@
     margin-right: 10px;
 }
 
-.mapa {
-    width: 50px;
-    height: 250px;
-}
-
 .Ministerios p {
     font-family: "Inter", sans-serif;
 }
@@ -741,4 +736,241 @@
     display: flex; /* Usa flexbox para centralizar conteúdo verticalmente */
     justify-content: center; /* Centraliza conteúdo horizontalmente */
     align-items: center; /* Centraliza conteúdo verticalmente */
+}
+
+/* NÚCLEO DE INTERCESSÃO */
+.Min-Intercessao {
+    margin-top: 150px;
+    display: flex;
+}
+
+.Min-Intercessao img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min05 {
+    font-family: 'Monument2';
+}
+
+#txt-NIntercessao{
+    margin-right: 10px;
+}
+
+/* MINISTÉRIO DE HOMENS */
+.N-Homens {
+    margin-top: 150px;
+    display: flex;
+}
+
+.N-Homens img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min06 {
+    font-family: 'Monument2';
+}
+
+#txt-NHomens{
+    margin-right: 10px;
+}
+
+#p-homem {
+    font-family: 'Monument2';
+    letter-spacing: 1px;
+    font-size: 14px;
+
+}
+
+/* NÚCLEO DE MULHERES */
+.N-Mulheres {
+    margin-top: 150px;
+    display: flex;
+}
+
+.N-Mulheres img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min07 {
+    font-family: 'Monument2';
+}
+
+#txt-NMulheres{
+    margin-right: 10px;
+}
+
+/* NÚCLEO DE MULHERES */
+.N-Infantil {
+    margin-top: 150px;
+    display: flex;
+}
+
+.N-Infantil img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min08 {
+    font-family: 'Monument2';
+}
+
+#txt-NInfantil{
+    margin-right: 10px;
+}
+
+
+
+/* NÚCLEO DE ADOLECENTES E JOVENS */
+.N-AdoJov {
+    margin-top: 150px;
+    display: flex;
+}
+
+.N-AdoJov img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min09 {
+    font-family: 'Monument2';
+}
+
+#txt-NAdoJo {
+    margin-right: 10px;
+}
+
+
+/* NÚCLEO DA FAMÍLIA */
+.N-Familia {
+    margin-top: 150px;
+    display: flex;
+}
+
+.N-Familia img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min10 {
+    font-family: 'Monument2';
+}
+
+#txt-NFamilia{
+    margin-right: 10px;
+}
+
+
+/* NÚCLEO SOCIAL */
+.N-Social {
+    margin-top: 150px;
+    display: flex;
+}
+
+.N-Social img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min11 {
+    font-family: 'Monument2';
+}
+
+#txt-NSocial{
+    margin-right: 10px;
+}
+
+/* NÚCLEO TEATRAL */
+.N-Teatral {
+    margin-top: 150px;
+    display: flex;
+}
+
+.N-Teatral img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min12 {
+    font-family: 'Monument2';
+}
+
+#txt-NTeatral{
+    margin-right: 10px;
+}
+
+/* NÚCLEO DE DANÇA */
+.N-Danca {
+    margin-top: 150px;
+    display: flex;
+}
+
+.N-Danca img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min13 {
+    font-family: 'Monument2';
+}
+
+#txt-NDanca{
+    margin-right: 10px;
+}
+
+/* NÚCLEO DE ENSINO MUSICAL */
+.N-EnsinoMusical {
+    margin-top: 150px;
+    display: flex;
+}
+
+.N-EnsinoMusical img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min14 {
+    font-family: 'Monument2';
+}
+
+#txt-NEnsinoMusical{
+    margin-right: 10px;
+}
+
+#p-EM {
+    font-family: 'Monument2';
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+/* TARDE COM CRISTO */
+.N-TardeComCristo {
+    margin-top: 150px;
+    display: flex;
+}
+
+.N-TardeComCristo img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min15 {
+    font-family: 'Monument2';
+}
+
+#txt-NTardeComCristo{
+    margin-right: 10px;
 }

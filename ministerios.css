@@ -39,6 +39,109 @@
         width: 90%;
     }
 
+    /* INTERCESSÃO */
+    .Min-Intercessao {
+        display: block;
+    }
+
+    .Min-Intercessao img {
+        width: 90%;
+    }
+
+    /* NÚCLEO DE HOMENS */
+    .N-Homens {
+        display: block;
+    }
+
+    .N-Homens img {
+        width: 90%;
+    }
+
+    /* NÚCLEO DE MULHERES */
+    .N-Mulheres {
+        display: block;
+    }
+
+    .N-Mulheres img {
+        width: 90%;
+    }
+
+    /* NÚCLEO INFANTIL */
+    .N-Infantil {
+        display: block;
+    }
+
+    .N-Infantil img {
+        width: 90%;
+    }
+
+    /* NÚCLEO DE JOVENS E ADOLECENTES */
+    .N-AdoJov {
+        display: block;
+    }
+
+    .N-AdoJov img {
+        width: 90%;
+    }
+
+    /* NÚCLEO DA FAMÍLIA */
+    .N-Familia {
+        display: block;
+    }
+
+    .N-Familia img {
+        width: 90%;
+    }
+
+    /* NÚCLEO SOCIAL */
+    .N-Social {
+        display: block;
+    }
+
+    .N-Social img {
+        width: 90%;
+    }
+
+    /* NÚCLEO TEATRAL */
+    .N-Teatral {
+        display: block;
+    }
+
+    .N-Teatral img {
+        width: 90%;
+    }
+
+    /* NÚCLEO DE DANÇA */
+    .N-Danca {
+        display: block;
+    }
+
+    .N-Danca img {
+        width: 90%;
+    }
+
+    /* ENSINO MUSICAL */
+    .N-EnsinoMusical {
+        display: block;
+    }
+
+    .N-EnsinoMusical img {
+        width: 90%;
+    }
+
+    /* TARDE COM CRISTO */
+    .N-TardeComCristo {
+        display: block;
+    }
+
+    .N-TardeComCristo img {
+        width: 90%;
+    }
+
+
+
+    /* TAMANHO DOS TÍTULOS - INDIVIDUALMENTE */
+
     /* PASTORAL */
     #tt-min01 {
         font-size: 21px;
@@ -58,5 +161,23 @@
     #tt-min04 {
         font-size: 21px;
     }
+
+    /* INTERCESSÃO */
+    #tt-min05 {
+        font-size: 21px;
+    }
+
+    /* HOMENS */
+    #tt-min06 {
+        font-size: 21px;
+    }
+
+    /* MULHERES */
+    #tt-min07 {
+        font-size: 21px;
+    }
 }
 
+html.sr .load-hidden {
+    visibility: hidden;
+}

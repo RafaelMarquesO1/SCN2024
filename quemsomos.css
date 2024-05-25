@@ -1,0 +1,136 @@
+.quemsomos-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+    margin-top: 60px;
+}
+
+.titulo-quemsomos {
+    margin: 30px;
+    font-family: 'Monument';
+    color: white;
+}
+
+/* Parte da divisão da história */
+
+.nossahistoria {
+    margin-top: 150px;
+    display: flex;
+    margin-left: 25px;
+    padding: 50px 80px 50px 80px;
+}
+
+.nossahistoria img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-nh01 {
+    font-family: 'Monument2';
+}
+
+#txt-nossahistoria {
+    margin-right: 10px;
+}
+
+.nossahistoria p {
+    font-family: "Inter", sans-serif;
+}
+
+/* Trajetória */
+
+.nossatrajetoria {
+    margin-top: 150px;
+    display: flex;
+    margin-left: 25px;
+    padding: 50px 80px 50px 80px;
+}
+
+.nossatrajetoria img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-nt01 {
+    font-family: 'Monument2';
+}
+
+#txt-nossatrajetoria {
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.nossatrajetoria p {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Construção do Novo Templo */
+
+.nossaconstrucao {
+    margin-top: 150px;
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 200px;
+    padding: 50px 80px 50px 80px;
+}
+
+.nossaconstrucao img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-nc01 {
+    font-family: 'Monument2';
+    font-size: 27px;
+}
+
+#txt-nossaconstrucao {
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.nossaconstrucao p {
+    font-family: "Inter", sans-serif;
+}
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .nossahistoria {
+        display: block;
+        padding: 30px 40px 30px 40px;
+    }
+
+    .nossahistoria img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .nossatrajetoria {
+        display: block;
+        padding: 30px 40px 30px 40px;
+    }
+
+    .nossatrajetoria img {
+        width: 100%;
+        height: 70%;
+        margin-bottom: 20px;
+    }
+
+    .nossaconstrucao {
+        display: block;
+        padding: 30px 40px 30px 40px;
+    }
+
+    .nossaconstrucao img {
+        width: 100%;
+        height: 70%;
+    }
+}

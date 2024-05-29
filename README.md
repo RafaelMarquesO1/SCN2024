@@ -11,7 +11,7 @@
 </h4>
 
 # Resumo do projeto
-Projeto em andamento, sendo feita as devidas alterações para um site responsivo e de fácil acesso.
+Somos uma comunidade cristã dedicada a seguir os ensinamentos da Palavra de Deus e a compartilhar o amor e a graça que recebemos por meio dela. Nosso propósito é vivermos em comunhão, fortalecendo uns aos outros em nossa jornada espiritual e impactando positivamente o mundo ao nosso redor.
 
 # :hammer: Funcionalidades do projeto
 

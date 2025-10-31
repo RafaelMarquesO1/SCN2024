@@ -1,0 +1,413 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Monument';
+    src: url('/Monument Extended.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Monument2';
+    src: url('/Monument Extended2.otf') format('opentype');
+}
+
+#titulo-pagina {
+    font-family: 'Monument';
+}
+
+.cont01 {
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.cont01 h2 {
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.Ministerios {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+.Ministerios #titulo-pagina {
+    margin-top: 60px;
+}
+
+
+/* MINISTÉRIO DE LOUVOR */
+.Min-Louvor {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.Min-Louvor img {
+    border-radius: 10px;
+    width: 50%;
+    height: 60%;
+}
+
+#tt-min02 {
+    font-family: 'Monument2';
+}
+
+#txt-MinLouvor {
+    margin-right: 10px;
+}
+
+.Min-Louvor p {
+    font-size: 15px;
+}
+
+/* MINISTÉRIO INFANTIL */
+.Min-Infantil {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.Min-Infantil img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min03 {
+    font-family: 'Monument2';
+}
+
+#txt-MinInfantil {
+    margin-right: 10px;
+}
+
+/* MINISTÉRIO DO DIACONATO */
+.Min-Diaconato {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+    
+}
+
+.Min-Diaconato img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min04 {
+    font-family: 'Monument2';
+}
+
+#txt-MinDiaconato{
+    margin-right: 10px;
+}
+
+.Ministerios p {
+    font-family: "Inter", sans-serif;
+}
+
+
+.minha-div {
+    border: 2px solid black; /* Define uma borda preta de 2px */
+    width: 200px; /* Largura da div */
+    height: 200px; /* Altura da div */
+    display: flex; /* Usa flexbox para centralizar conteúdo verticalmente */
+    justify-content: center; /* Centraliza conteúdo horizontalmente */
+    align-items: center; /* Centraliza conteúdo verticalmente */
+}
+
+/* NÚCLEO DE INTERCESSÃO */
+.Min-Intercessao {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.Min-Intercessao img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min05 {
+    font-family: 'Monument2';
+}
+
+#txt-NIntercessao{
+    margin-right: 10px;
+}
+
+.Min-Intercessao p {
+    font-size: 15px;
+}
+
+/* MINISTÉRIO DE HOMENS */
+.N-Homens {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.N-Homens img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min06 {
+    font-family: 'Monument2';
+}
+
+#txt-NHomens{
+    margin-right: 10px;
+}
+
+#p-homem {
+    font-family: 'Monument2';
+    letter-spacing: 1px;
+    font-size: 14px;
+
+}
+
+/* NÚCLEO DE MULHERES */
+.N-Mulheres {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.N-Mulheres img {
+    border-radius: 10px;
+    width: 40%;
+    height: 70%;
+}
+
+#tt-min07 {
+    font-family: 'Monument2';
+}
+
+#txt-NMulheres{
+    margin-right: 10px;
+}
+
+.N-Mulheres p {
+    font-size: 15px;
+}
+
+/* NÚCLEO INFANTIL */
+.N-Infantil {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.N-Infantil img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min08 {
+    font-family: 'Monument2';
+}
+
+#txt-NInfantil{
+    margin-right: 10px;
+}
+
+.N-Infantil p {
+    font-size: 15px;
+}
+
+
+
+/* NÚCLEO DE ADOLECENTES E JOVENS */
+.N-AdoJov {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.N-AdoJov img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min09 {
+    font-family: 'Monument2';
+}
+
+#txt-NAdoJo {
+    margin-right: 10px;
+}
+
+.N-AdoJov p {
+    font-size: 15px;
+}
+
+
+/* NÚCLEO DA FAMÍLIA */
+.N-Familia {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.N-Familia img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min10 {
+    font-family: 'Monument2';
+}
+
+#txt-NFamilia{
+    margin-right: 10px;
+}
+
+.N-Familia p {
+    font-size: 15px;
+}
+
+
+/* NÚCLEO SOCIAL */
+.N-Social {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.N-Social img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min11 {
+    font-family: 'Monument2';
+}
+
+#txt-NSocial{
+    margin-right: 10px;
+}
+
+.N-Social p {
+    font-size: 15px;
+}
+
+/* NÚCLEO TEATRAL */
+.N-Teatral {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.N-Teatral img {
+    border-radius: 10px;
+    width: 57%;
+    height: 50%;
+}
+
+#tt-min12 {
+    font-family: 'Monument2';
+}
+
+#txt-NTeatral{
+    margin-right: 10px;
+}
+
+.N-Teatral p {
+    font-size: 15px;
+}
+
+/* NÚCLEO DE DANÇA */
+.N-Danca {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.N-Danca img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+#tt-min13 {
+    font-family: 'Monument2';
+}
+
+#txt-NDanca{
+    margin-right: 10px;
+}
+
+.N-Danca p {
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+/* NÚCLEO DE ENSINO MUSICAL */
+.N-EnsinoMusical {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.N-EnsinoMusical img {
+    border-radius: 10px;
+    width: 40%;
+    height: 70%;
+}
+
+#tt-min14 {
+    font-family: 'Monument2';
+}
+
+#txt-NEnsinoMusical{
+    margin-right: 10px;
+}
+
+#p-EM {
+    font-family: 'Monument2';
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.N-EnsinoMusical p {
+    font-size: 15px;
+}
+
+/* TARDE COM CRISTO */
+.N-TardeComCristo {
+    margin-top: 150px;
+    display: flex;
+    padding: 50px 30px 50px 30px;
+}
+
+.N-TardeComCristo img {
+    border-radius: 10px;
+    width: 50%;
+    height: 80%;
+    align-items: center;
+}
+
+#tt-min15 {
+    font-family: 'Monument2';
+}
+
+#txt-NTardeComCristo{
+    margin-right: 10px;
+}
+
+.N-TardeComCristo p {
+    font-size: 15px;
+}

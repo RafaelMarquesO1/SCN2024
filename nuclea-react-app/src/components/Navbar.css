@@ -1,24 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Garante que a navbar fique sobreposta a outros elementos */
+    z-index: 1000;
+    background-color: #0f0f0f;
 }
 
 .nav-link {
     font-family: "Azeret Mono", monospace;
     font-size: 14px;
-}
-
-@media screen and (max-width: 426px) {
-    .nav-link {
-        font-size: 20px;
-     }
-}
-
-@media (min-width: 414px) {
-    .nav-link {
-        font-size: 20px;
-     }
 }

@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Monument';
+    src: url('/Monument Extended.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Monument2';
+    src: url('/Monument Extended2.otf') format('opentype');
+}
+
+.conteudo-principal {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ajuste a altura conforme necessário */
+    overflow: hidden; /* Garante que o vídeo não ultrapasse a div */
+}
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+}
+
+.video-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que o vídeo cubra toda a área */
+}
+
+.conteudo-botoes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1; /* Coloca os botões na frente do vídeo */
+}
+
+.botoes-principais {
+    display: flex;
+    flex-direction: column; /* Altera a direção para empilhar os botões */
+    align-items: center; /* Centraliza os botões horizontalmente */
+}
+
+.bto-abrir {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    margin: 10px 0; /* Adiciona espaçamento entre os botões */
+    font-family: 'Monument';
+}
+
+
+
+/* Estilos da seção "ACOMPANHE AO VIVO" */
+.titulo-section-1 {
+    background-color: #0f0f0f;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-section-1 h2 {
+    color: white;
+    font-family: 'Monument';
+}
+
+.video-aovivo {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporção 16:9 para vídeos responsivos */
+    height: 0;
+    overflow: hidden;
+    background-color: #0f0f0f;
+}
+
+.video-aovivo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.banner-section-2 {
+    position: relative;
+    text-align: center; /* Centraliza o conteúdo */
+    background-color: #0f0f0f; /* Adiciona uma cor de fundo */
+}
+
+.imagem-banner-section-2 {
+    width: 100%; /* Garante que a imagem ocupe toda a largura */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços extras abaixo da imagem */
+}
+
+.bto-section-2 {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza completamente */
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Monument';
+}
+
+
+.localizacao h2 {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Monument';
+    margin-bottom: 0%;
+}
+
+.mapa iframe {
+    width: 100%;
+}
+
+
+
+
+
+.anime-se {
+    position: relative;
+    text-align: center;
+}
+
+.background-anime-se {
+    position: relative;
+    display: inline-block; /* Para que a posição absoluta do botão funcione corretamente */
+}
+
+.imagem-anime-se {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bto-anime-se {
+    position: absolute;
+    bottom: 20px; /* Ajuste a distância do botão ao final da imagem */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Monument';
+}
+
+
+.frase-biblica {
+    background-color: #000000;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.frase-biblica p {
+    font-family: "inter", sans-serif;
+    font-size: 25px;
+}
+
+.frase-biblica h3 {
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}

@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Monument';
+    src: url('/Monument Extended.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Monument2';
+    src: url('/Monument Extended2.otf') format('opentype');
+}
+
+#quem-somos {
+    font-family: 'Monument';
+}
+
+#nossos-valores {
+    font-family: 'Monument';
+    color: #000000;
+}
+
+
+/* PARTE DOS VALORES! */
+
+.conteudo #nossos-valores h3 {
+    font-family: 'Monument';
+}
+
+/* GRAÇA */
+.graca-prt {
+    padding-top: 50px;
+}
+
+.graca-prt h3 {
+    font-family: 'Monument2';
+    color: #1c4396;
+}
+
+.graca-prt p {
+    font-family: "Inter", sans-serif;
+}
+
+/* AMOR */
+.amor-prt {
+    padding-top: 50px;
+}
+
+.amor-prt h3 {
+    font-family: 'Monument2';
+    color: #ef4f22;
+}
+
+.amor-prt p {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* PAZ */
+.paz-prt {
+    padding-top: 50px;
+    padding-bottom:60px;
+}
+
+.paz-prt h3 {
+    font-family: 'Monument2';
+    color: #cf1f26;
+}
+
+.paz-prt p {
+    font-family: "Inter", sans-serif;
+}
+
+/* SIGNIFICADO DA ÁGUIA */
+.aguia-significado h2 {
+    font-family: 'Monument';
+    padding-bottom: 10px;
+}
+
+.aguia-significado p {
+    font-family: "Inter", sans-serif;
+}
+
+.txt-lista {
+    list-style-type: decimal;
+    font-family: "Inter", sans-serif;
+}
+
+.txt-lista li{
+    padding-bottom: 7px;
+}
+
+.conteudo1 {
+    margin-top: 0px;
+    padding: 0px;
+    padding-bottom: 60px;
+    background-color: #0f0f0f;
+    display: flex;
+}
+
+.conteudo1 .texto-black p {
+    font-family: "Inter", sans-serif;
+}
+
+.texto-black {
+    margin-top: 60px;
+    padding: 20px;
+    color: white;
+}

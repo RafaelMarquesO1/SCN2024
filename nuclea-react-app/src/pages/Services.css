@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Monument';
+    src: url('/Monument Extended.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Monument2';
+    src: url('/Monument Extended2.otf') format('opentype');
+}
+
+/* CARDS */
+#cultos {
+    font-family: 'Monument';
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.kard {
+    margin: 50px;
+    background-color: #e0e0e0;
+    color: #202020;
+    width: 400px;
+    height: 570px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.bto a {
+    text-decoration: none;
+    color: white;
+}
+
+.kard>h1 {
+    font-family: 'Monument2';
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.kard>h2 {
+    font-family: 'Monument2';
+    font-size: 15px;
+    padding-top: 1px;
+    color: #1c4396;
+}
+
+.kard>p {
+    font-size: 17px;
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.bto{
+   font-family: 'Monument2'; 
+   padding: 10px 50px;
+   border: none;
+   background-color: #202020;
+   color: #ffffff;
+   letter-spacing: 1px;
+   transition: 0.5s background;
+   cursor: pointer;
+}
+
+.bto:hover {
+    transition: 0.5s background;
+    background-color: #464646;
+}
+
+.kard>img {
+    width: 100%;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
+
+
+
+#titulo-pagina {
+    font-family: 'Monument';
+}
+
+.cont01 {
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.cont01 h2 {
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.Ministerios {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+.Ministerios #titulo-pagina {
+    margin-top: 60px;
+}
+
+/* MINISTÉRIO PASTORAL */
+#tt-min01 {
+    margin-top: 50px;
+    font-family: 'Monument2';
+}
+
+.Min-Pastoral img {
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
+
+.Min-Pastoral {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px 50px 30px;
+}
+
+.Min-Pastoral p {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+.palavra .palavra-versiculo {
+    margin-top: -10px;
+    font-weight: 700;
+}
+
+#txt-MinPastoral {
+    margin-right: 10px;
+}

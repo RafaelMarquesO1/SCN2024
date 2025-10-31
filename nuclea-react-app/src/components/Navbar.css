@@ -1,0 +1,24 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que a navbar fique sobreposta a outros elementos */
+}
+
+.nav-link {
+    font-family: "Azeret Mono", monospace;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 426px) {
+    .nav-link {
+        font-size: 20px;
+     }
+}
+
+@media (min-width: 414px) {
+    .nav-link {
+        font-size: 20px;
+     }
+}
